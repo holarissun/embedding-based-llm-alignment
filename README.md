@@ -22,8 +22,8 @@ test_embeddings, test_rewards = load_embd_data(task=args.task, res_gen_model=arg
 ### test_rewards.shape = (2000, 500, 1)
 
 # Generation of Pairwise Comparisons
-train_comparisons, train_labels = pair_annotate(train_embeddings, train_rewards, noise_level = 0.1)
-# annotation noise can be adjusted through "noise_level"
+train_comparisons, train_labels = pair_annotate(train_embeddings, train_rewards, annotation_quality = 0.1)
+# annotation noise can be adjusted through "annotation_quality"
 
 # Train Embedding-based Reward Model (e.g., use a Bradley-Terry MLP)
 reward_model = BT_MLP()
