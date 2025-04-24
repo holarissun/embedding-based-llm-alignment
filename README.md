@@ -1,6 +1,6 @@
 # Embedding-based LLM Alignment: 
 ## A Minimalist, Efficient, and Effective Infrastructure of Reward Modeling Research.
-Codebase for Infra Report _[Reusing Embeddings: Reproducible Reward Model Research in Large Language Model Alignment without GPUs](https://arxiv.org/pdf/2502.04357)_
+Codebase for report _[Reusing Embeddings: Reproducible Reward Model Research in Large Language Model Alignment without GPUs](https://arxiv.org/pdf/2502.04357)_
 
 
 -----
