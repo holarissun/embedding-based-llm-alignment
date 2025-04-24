@@ -60,17 +60,20 @@ The full 300GB embedding files can be found at:
 
 
 ---
-### Demonstrative Use Cases
+### Demonstrative Use Cases (TBD)
 
 #### 1. A Quick Implementation of Reward Model Ensemble
-
+[This Repo.](https://github.com/holarissun/RewardModelingBeyondBradleyTerry/blob/c09e0971d360546e41c64879f7cd343ae0f845e6/step5_train_rms.py#L28C24-L28C39) 
 
 #### 2. A Quick Implementation of Active Reward Modeling 
-
+[This Repo.](https://github.com/YunyiShen/ARM-FI)
 
 #### 3. A Quick Implementation of Classification-based Reward Models
-
+[This Repo.](https://github.com/holarissun/RewardModelingBeyondBradleyTerry)
 
 #### 4. Exciting Future Works!
+- (Input) More RM data formats other than (pairwise) preferences?
+- (Input) Optimizing the embeddings for discriminative tasks?
+- (Objective) Beyond order consistency --- partial order consistency?
 
 
